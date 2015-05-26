@@ -19,5 +19,5 @@ REMOTE_REVERSE_PORT=2222
 # Ignore early failed connections at boot
 export AUTOSSH_GATETIME=0
 
-autossh -4 -M 0 -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -R $REMOTE_REVERSE_PORT:$LOCAL_SSH_HOST:$LOCAL_SSH_PORT -p$REMOTE_SSH_HOST_PORT $REMOTE_SSH_HOST_USER@$REMOTE_SSH_HOST
+autossh -4 -M 0 -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -R 0.0.0.0:$REMOTE_REVERSE_PORT:$LOCAL_SSH_HOST:$LOCAL_SSH_PORT -p$REMOTE_SSH_HOST_PORT $REMOTE_SSH_HOST_USER@$REMOTE_SSH_HOST
 
