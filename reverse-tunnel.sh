@@ -5,7 +5,7 @@
 # Requires: autossh
 # Copyright (C) 2015 Filipe Farinha - All Rights Reserved
 # Permission to copy and modify is granted under the GPLv3 license
-# Last revised 05/05/2015
+# Last revised 26/05/2015
 
 LOCAL_SSH_HOST=localhost
 LOCAL_SSH_PORT=22
