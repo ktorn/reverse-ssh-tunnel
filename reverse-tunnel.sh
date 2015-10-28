@@ -5,7 +5,7 @@
 # Requires: autossh
 #
 # Note: In order to bind the reverse port to all interfaces in the remote host,
-#       you may need to add 'GatewayPorts yes' to your sshd configuration.
+#       you may need to add 'GatewayPorts yes' to the sshd configuration of the remote host.
 #       Also, DESTINATION_HOST is the target host as seen by localhost, and can either
 #       be localhost itself, or any other host accessible by it.
 #
