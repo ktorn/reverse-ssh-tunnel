@@ -9,9 +9,9 @@
 #       Also, DESTINATION_HOST is the target host as seen by localhost, and can either
 #       be localhost itself, or any other host accessible by it.
 #
-# Copyright (C) 2015 Filipe Farinha - All Rights Reserved
+# Copyright (C) 2015-2016 Filipe Farinha - All Rights Reserved
 # Permission to copy and modify is granted under the GPLv3 license
-# Last revised 28/10/2015
+# Last revised 10/12/2016
 
 DESTINATION_HOST=localhost
 DESTINATION_PORT=22
