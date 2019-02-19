@@ -24,5 +24,7 @@ Also, `LOCAL_HOST` is relative to the host where you run this script from, and i
 
 Default configuration forwards `REMOTE_HOST`:`8888` to `LOCAL_HOST`:`80`.
 
+
 Copyright (C) 2015-2018 Filipe Farinha - All Rights Reserved
+
 Permission to copy and modify is granted under the GPLv3 license
